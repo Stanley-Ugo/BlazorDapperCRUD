@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using BlazorDapperCRUD.Data;
 
 namespace BlazorDapperCRUD
 {
@@ -26,6 +27,13 @@ namespace BlazorDapperCRUD
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+
+            //Sql database conection (name defined in appsettings.json).
+            var SqlConnectionConfiguration = new SqlConnectionConfiguration(Configuration.GetConnectionString("SqlDBcontext"));
+            services.AddSingleton(SqlConnectionConfiguration);
+
+            //optional for debugging
+            services.AddServerSideBlazor(o => o.DetailedErrors = true);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
