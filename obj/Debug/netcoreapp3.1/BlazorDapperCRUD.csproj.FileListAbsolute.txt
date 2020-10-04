@@ -35,3 +35,4 @@ C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\BlazorDapperCRUD.dll
 C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\BlazorDapperCRUD.pdb
 C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\BlazorDapperCRUD.genruntimeconfig.cache
 C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\BlazorDapperCRUD.csproj.CopyComplete
+C:\Projects\BlazorDapperCRUD\bin\Debug\netcoreapp3.1\Dapper.dll
