@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "P7lHJn2H8KyTXLBWwYhHiUzNKPoaKQu/e7WHpuhZi5baFEB9TbYLiAclHXUXVjfp6o7PRs5fL1GpV9Xr2YhMww==",
+  "dgSpecHash": "f6lEBhbwBoliMyjLpNi3L6fgeEtOi+jvXLIYvLwpmqObIzU3lMMCtdYvzeK1bIc7Rl7LZ4FVrre6ylMGGSTs/g==",
   "success": true,
   "projectFilePath": "C:\\Projects\\BlazorDapperCRUD\\BlazorDapperCRUD.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
