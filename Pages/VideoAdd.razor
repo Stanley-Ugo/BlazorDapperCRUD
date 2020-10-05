@@ -5,7 +5,7 @@
 
     <h1>Add a Video</h1>
 
-<EditForm Model="@video" OnInvalidSubmit="@VideoInsert">
+<EditForm Model="@video" OnValidSubmit="@VideoInsert">
     <table>
         <tr>
             <td>Video Title: </td>
@@ -38,6 +38,7 @@
         await VideoService.VideoInsert(video);
         NavigationManager.NavigateTo("/");
     }
+
     void Cancel()
     {
         NavigationManager.NavigateTo("/");

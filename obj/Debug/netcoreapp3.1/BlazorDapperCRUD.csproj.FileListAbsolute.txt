@@ -70,3 +70,5 @@ C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.raz
 C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\VideoAdd.razor.g.cs
+C:\Projects\BlazorDapperCRUD\obj\Debug\netcoreapp3.1\Razor\Pages\VideoAdd.razor.g.cs
