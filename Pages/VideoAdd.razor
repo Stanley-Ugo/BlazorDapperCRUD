@@ -3,6 +3,42 @@
 @inject IVideoService VideoService
 @inject NavigationManager NavigationManager
 
-@code {
+    <h1>Add a Video</h1>
 
+<EditForm Model="@video" OnInvalidSubmit="@VideoInsert">
+    <table>
+        <tr>
+            <td>Video Title: </td>
+            <td><input type="text" @bind="video.Title" required /></td>
+        </tr>
+        <tr>
+            <td>Date Published: </td>
+            <td><input type="date" @bind="video.DatePublished" required /></td>
+        </tr>
+        <tr>
+            <td>Is Active: </td>
+            <td><input type="checkbox" @bind="video.isActive" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center" >
+                <input type="submit" value="Add" />
+                <input type="button" value="Cancel" @onclick="@Cancel" />
+            </td>
+        </tr>
+    </table>
+</EditForm>
+
+
+@code {
+    //Create a new, empty Video object
+    Video video = new Video();
+
+    protected async Task VideoInsert()
+    {
+
+    }
+    void Cance()
+    {
+
+    }
 }
