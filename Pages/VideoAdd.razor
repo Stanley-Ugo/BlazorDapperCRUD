@@ -35,10 +35,11 @@
 
     protected async Task VideoInsert()
     {
-
+        await VideoService.VideoInsert(video);
+        NavigationManager.NavigateTo("/");
     }
-    void Cance()
+    void Cancel()
     {
-
+        NavigationManager.NavigateTo("/");
     }
 }
