@@ -33,6 +33,13 @@
     //Create a new, empty Video object
     Video video = new Video();
 
+    //Executes on page open, set default on page
+    protected override void OnInitialized()
+    {
+        DateTime defaultDate = new DateTime(2000, 12, 31);
+        video.DatePublished = defaultDate;
+    }
+
     protected async Task VideoInsert()
     {
         await VideoService.VideoInsert(video);
