@@ -27,7 +27,7 @@ namespace BlazorDapperCRUD.Data
                 parameters.Add("DatePublished", video.DatePublished, DbType.Date);
                 parameters.Add("isActive", video.isActive, DbType.Boolean);
                 //Raw SQL Method
-                const string query = @"INSERT INTO Video (Title, DatePublished, isActive) VALUES (@Title, @DataPublished, @isActive)";
+                const string query = @"INSERT INTO Video (Title, DatePublished, isActive) VALUES (@Title, @DatePublished, @isActive)";
                 await conn.ExecuteAsync(query, new { video.Title, video.DatePublished, video.isActive }, commandType: CommandType.Text);
             }
 
